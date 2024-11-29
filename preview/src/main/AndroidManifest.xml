@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.hyfun.preview">
+
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+  <application
+    android:name=".base.App"
+    >
+    <activity android:name=".VideoActivity"
+      android:configChanges="orientation|keyboardHidden|screenSize"
+      android:screenOrientation="portrait"
+      android:theme="@style/FunPreviewTheme.ImageTheme"
+      />
+    <!-- <activity android:name=".PreviewAudioActivity" -->
+    <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
+    <!-- android:screenOrientation="portrait" -->
+    <!-- android:theme="@style/FunPreviewTheme" /> -->
+    <activity
+      android:name=".PreviewVideoActivity"
+      android:configChanges="orientation|keyboardHidden|screenSize"
+      android:screenOrientation="portrait"
+      android:theme="@style/FunPreviewTheme.ImageTheme" />
+    <activity
+      android:name=".PreviewImageActivity"
+      android:screenOrientation="portrait"
+      android:theme="@style/FunPreviewTheme.ImageTheme" />
+  </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <declare-styleable name="play">
+    <attr format="color" name="play_line_color"/>
+    <attr format="color" name="play_bg_line_color"/>
+    <attr format="integer" name="play_line_width"/>
+    <attr format="integer" name="play_bg_line_width"/>
+  </declare-styleable>
+  <declare-styleable name="download">
+    <attr format="color" name="download_line_color"/>
+    <attr format="color" name="download_bg_line_color"/>
+    <attr format="color" name="download_text_color"/>
+    <attr format="integer" name="download_line_width"/>
+    <attr format="integer" name="download_bg_line_width"/>
+    <attr format="integer" name="download_text_size"/>
+  </declare-styleable>
+
+</resources>
